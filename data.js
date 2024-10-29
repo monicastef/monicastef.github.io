@@ -1,6 +1,5 @@
 export const bio = [
-  "Hello! I'm Vinay Somawat, an experienced Frontend Software Engineer with a proven ability to upgrade applications, optimize performance, and deliver innovative solutions.",
-  "I am passionate about using my technical skills to drive impactful contributions in challenging projects.",
+  "Hi there, my name is Monica Stef, a 3rd-year Computer Science student at Queen's University with a passion for AI, cybersecurity, and innovative tech solutions. I’ve gained experience as a data engineer at Scotiabank and a software developer at BMO, where I connected with inspiring mentors and developed projects that combine creativity with functionality, like myFace, an AI-powered authentication tool for Queen’s University’s student portal. Currently, I’m working on a nightlife app to enhance social experiences in Kingston and refining my skills in software architecture, C++ development, and interactive educational games. Welcome to my digital space :)",
   "Thanks for visiting!",
 ];
 
