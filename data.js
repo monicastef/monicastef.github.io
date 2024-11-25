@@ -1,6 +1,9 @@
 export const bio = [
-  "Hi there, my name is Monica Stef, a 3rd-year Computer Science student at Queen's University with a passion for AI, cybersecurity, and innovative tech solutions. I’ve gained experience as a data engineer at Scotiabank and a software developer at BMO, where I connected with inspiring mentors and developed projects that combine creativity with functionality, like myFace, an AI-powered authentication tool for Queen’s University’s student portal. Currently, I’m working on a nightlife app to enhance social experiences in Kingston and refining my skills in software architecture, C++ development, and interactive educational games. Welcome to my digital space :)",
-  "Thanks for visiting!",
+  "Hi there! My name is Monica Stef, a 3rd-year Computer Science student at Queen's University, passionate about AI, cybersecurity, and building innovative tech solutions that solve real-world problems.",
+  "I've had the privilege of interning as a Data Engineer at Scotiabank and as a Software Developer at BMO, where I worked on exciting, client-facing projects to automate and optimize user-experience and integrate client's suggestions. Aside from internship experience, I’m actively exploring creative projects like a nightlife app to track bar lines in Kingston, myFace: an AI-powered authentication tool for Queen’s University’s student portal, Spell Quest: an educational game designed to improve word association for students, and a build-your-own Conenctions game inspired by the New York Times Connections!",
+  "Currently, I'm refining my skills in software architecture, C++ development, and interactive game design, all while staying involved in initiatives like Queen's Women in Computing (QWIC), Queen's Conference on Business & Technology, QHacks, and tutoring math and computer science.",
+
+  "Thanks for visiting, and welcome to my digital space :)",
 ];
 
 export const skills = [
