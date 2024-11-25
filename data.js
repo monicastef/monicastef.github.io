@@ -60,83 +60,51 @@ export const skills = [
 export const projects = {
   webProjects: [
     {
-      projectName: "Programming Diaries",
-      image: "images/programmingdiaries.png",
+      projectName: "myFace",
+      image: "images/myFace.jpg",
       summary:
-        "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-      preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
+        "An AI-powered facial recognition application designed to replace two-factor authentication in Queen’s University student portal",
+      preview: "",
+      techStack: ["Python", "OpenCV", "TensorFlow", "Flask"],
     },
     {
-      projectName: "Find Your Bank",
-      image: "images/findyourbank.png",
+      projectName: "Build Your Own New York Times Connections",
+      image: "",
       summary:
-        "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-      preview: "https://clever-fermi-0d5d76.netlify.app",
-      techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+        "Inspired by the New York Times \"Connections\", allows users to create custom puzzles by grouping four words with shared themes",
+      preview: "",
+      techStack: ["React", "Node.js", "MongoDB"],
     },
     {
       projectName: "Web Portfolio",
-      image: "images/portfolio.png",
+      image: "images/logo.png",
       summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
-    {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
-      summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
+        "Personal website to display, skills, projects and interests.",
+      preview: "https://github.com/monicastef/monicastef.github.io.git",
       techStack: ["HTML", "Bootstrap", "JavaScript"],
     },
   ],
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
+      projectName: "ScummVM Software Architecture",
+      image: "scummVM.jpeg",
       summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
-    },
-    {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
-      summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
-    },
-    {
-      projectName: "Bill Generator",
-      image: "images/billgenerator.png",
-      summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
+        "In-depth architectural model evaluating system components, developer responsibilities, and architectural implications to support collaborative software development and modular design principles.",
+      preview: "https://sites.google.com/view/arraysofsunshine/home",
+      techStack: ["UML Diagrams", "Jira", "Google Sites"],
     },
   ],
-  androidProjects: [
+  gameProjects: [
     {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
+      projectName: "Spell Quest",
+      image: "",
       summary:
         "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
-    },
-    {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
-      summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
+      preview: "",
       techStack: ["JAVA", "XML", "Android"],
     },
   ],
-  freelanceProjects: [
+  /* freelanceProjects: [
     {
       projectName: "SnylloAir.com",
       image: "images/snylloair.png",
@@ -153,7 +121,7 @@ export const projects = {
         "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
       techStack: ["Android", "JAVA", "Play Store"],
     },
-  ],
+  ], */
 };
 
 export const experience = [
