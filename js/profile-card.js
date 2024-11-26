@@ -95,33 +95,6 @@ window.addEventListener("DOMContentLoaded", async function () {
                         </span>
                     </div>
                 </div>
-
-                <div style="margin-top: 12px; display: flex; justify-content: space-evenly; align-items: center; ">
-                    <div style="display: flex; flex-direction: column;">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
-                            REPOSITORIES
-                        </span>
-                        <span style="font-weight: 600; color: #211F1F; font-size: 32px; line-height: 1">
-                            ${public_repos}
-                        </span>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
-                            FOLLOWERS
-                        </span>
-                        <span style="font-weight: 600; color: #211F1F; font-size: 32px; line-height: 1">
-                            ${followers}
-                        </span>
-                    </div>
-                    <div style="display: flex; flex-direction: column;">
-                        <span style="font-size: 10px; font-weight: 500; color: #586069;">
-                            FOLLOWING
-                        </span>
-                        <span style="font-weight: 600; color: #211F1F; font-size: 32px; line-height: 1">
-                            ${following}
-                        </span>
-                    </div>
-                </div>
             </div>
         `;
     });
