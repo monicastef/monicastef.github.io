@@ -69,7 +69,7 @@ export const projects = {
     },
     {
       projectName: "Build Your Own New York Times Connections",
-      image: "",
+      image: "images/connectionSS.png",
       summary:
         "Inspired by the New York Times \"Connections\", allows users to create custom puzzles by grouping four words with shared themes",
       preview: "",
