@@ -63,7 +63,7 @@ export const projects = {
       projectName: "myFace",
       image: "images/myFace.jpg",
       summary:
-        "An AI-powered facial recognition application designed to replace two-factor authentication in Queen’s University student portal",
+        "An AI-powered facial recognition application designed to replace two-factor authentication in Queens University student portal",
       preview: "",
       techStack: ["Python", "OpenCV", "TensorFlow", "Flask"],
     },
@@ -126,9 +126,9 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Shiprocket (Bigfoot Solution Private Limited)",
-    duration: "September 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "Bank of Montreal",
+    duration: "May 2024 - Aug 2024",
+    subtitle: "Software Developer Intern",
     details: ["Working in support and escalation team."],
     tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
     icon: "truck ",
@@ -194,9 +194,9 @@ export const experience = [
 
 export const education = [
   {
-    title: "B.Tech. in Computer Science and Engineering",
-    duration: "2016 - 2020",
-    subtitle: "National Institute of Technology, Warangal",
+    title: "B.Comp. in Computer Science and Artificial Intelligence",
+    duration: "2022 - Present",
+    subtitle: "Queen's University",
     details: [],
     tags: [
       "Data Structures & Algorithms",
