@@ -61,7 +61,7 @@ export const projects = {
   webProjects: [
     {
       projectName: "myFace",
-      image: "images/myFace.jpg",
+      image: "images/myFace.png",
       summary:
         "An AI-powered facial recognition application designed to replace two-factor authentication in Queens University student portal",
       preview: "",
