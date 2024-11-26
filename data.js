@@ -87,7 +87,7 @@ export const projects = {
   softwareProjects: [
     {
       projectName: "ScummVM Software Architecture",
-      image: "scummVM.jpeg",
+      image: "images/scummVM.jpeg",
       summary:
         "In-depth architectural model evaluating system components, developer responsibilities, and architectural implications to support collaborative software development and modular design principles.",
       preview: "https://sites.google.com/view/arraysofsunshine/home",
@@ -97,11 +97,11 @@ export const projects = {
   gameProjects: [
     {
       projectName: "Spell Quest",
-      image: "",
+      image: "images/spellQuestPoster.png",
       summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
+        "Interactive word game to help grade school students improve image-to-text association with engaging word themes, increasing difficulty levels, and multiplayer options",
       preview: "",
-      techStack: ["JAVA", "XML", "Android"],
+      techStack: ["C++", "raylib", "SQLite"],
     },
   ],
   /* freelanceProjects: [
