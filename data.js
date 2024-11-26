@@ -61,7 +61,7 @@ export const projects = {
   webProjects: [
     {
       projectName: "myFace",
-      image: "images/myFace.png",
+      image: "images/unnamed2.jpg",
       summary:
         "An AI-powered facial recognition application designed to replace two-factor authentication in Queens University student portal",
       preview: "",
@@ -69,7 +69,7 @@ export const projects = {
     },
     {
       projectName: "Build Your Own New York Times Connections",
-      image: "images/connectionSS.png",
+      image: "images/unnamed.jpg",
       summary:
         "Inspired by the New York Times \"Connections\", allows users to create custom puzzles by grouping four words with shared themes",
       preview: "",
