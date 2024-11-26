@@ -4,7 +4,27 @@ window.addEventListener("DOMContentLoaded", async function () {
         return resp.json();
     }
 
-    document.querySelectorAll(".stack-card").forEach(async function (el) {
+    document.querySelectorAll(".custom-website-card").forEach(function (el) {
+        const websiteURL = el.getAttribute("website-url");
+        const name = el.getAttribute("name");
+    
+        el.innerHTML = `
+            <div style="font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji; border-radius: 6px; line-height: 1.5; padding: 16px; font-size: 14px; color: #24292e; background-color: #999B84;">
+                <div style="display: flex; align-items: center; margin-top: -4px">
+                    <div style="display: flex; flex-direction: column; margin-left: 12px">
+                        <span style="font-weight: 500; color: #black; font-size: 18px">
+                            <a style="text-decoration: none; color: inherit;" target="_blank" href="${websiteURL}">
+                                ${name}
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+    
+
+    /* document.querySelectorAll(".stack-card").forEach(async function (el) {
         const userId = el.getAttribute("user-id");
 
         const response = await get(`https://api.stackexchange.com/2.2/users/${userId}?site=stackoverflow`);
@@ -52,7 +72,7 @@ window.addEventListener("DOMContentLoaded", async function () {
                 </div>
             </div>
         `;
-    });
+    }); */
 
     document.querySelectorAll(".github-card").forEach(async function (el) {
         const username = el.getAttribute("username");

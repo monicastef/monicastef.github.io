@@ -1,6 +1,6 @@
 export const bio = [
   "Hi there! My name is Monica Stef, a 3rd-year Computer Science student at Queen's University, passionate about AI, cybersecurity, and building innovative tech solutions that solve real-world problems.",
-  "I've had the privilege of interning as a Data Engineer at Scotiabank and as a Software Developer at BMO, where I worked on exciting, client-facing projects to automate and optimize user-experience and integrate client's suggestions. Aside from internship experience, I’m actively exploring creative projects like a nightlife app to track bar lines in Kingston, myFace: an AI-powered authentication tool for Queen’s University’s student portal, Spell Quest: an educational game designed to improve word association for students, and a build-your-own Conenctions game inspired by the New York Times Connections!",
+  "I've had the privilege of interning as a Data Engineer at Scotiabank and as a Software Developer at BMO, where I worked on exciting, client-facing projects to automate and optimize user-experience and integrate client's suggestions. Aside from internship experience, I’m actively exploring creative projects like a nightlife app to track bar lines in Kingston, myFace: an AI-powered authentication tool for Queen’s University’s student portal, Spell Quest: an educational game designed to improve word association for students, and a build-your-own Connections game inspired by the New York Times Connections!",
   "Currently, I'm refining my skills in software architecture, C++ development, and interactive game design, all while staying involved in initiatives like Queen's Women in Computing (QWIC), Queen's Conference on Business & Technology, QHacks, and tutoring math and computer science.",
 
   "Thanks for visiting, and welcome to my digital space :)",
@@ -266,19 +266,19 @@ export const footer = [
     //   },
       {
         text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
+        link: "",
       },
       {
-        text: "Github/vinaysomawat.github.io",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
+        text: "Github/monicastef.github.io",
+        link: "https://github.com/monicastef/monicastef.github.io",
       },
     ],
   },
   {
     label: "copyright-text",
     data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
+      "Made with &hearts; by Monica Stef.",
+      "Last Updated: Fall 2024",
     ],
   },
 ];
