@@ -1,27 +1,27 @@
 export const bio = [
-  "Hi there! My name is Monica Stef, a 3rd-year Computer Science student at Queen's University, passionate about AI, cybersecurity, and building innovative tech solutions that solve real-world problems.",
-  "I've had the privilege of interning as a Data Engineer at Scotiabank and as a Software Developer at BMO, where I worked on exciting, client-facing projects to automate and optimize user-experience and integrate client's suggestions. Aside from internship experience, I’m actively exploring creative projects like a nightlife app to track bar lines in Kingston, myFace: an AI-powered authentication tool for Queen’s University’s student portal, Spell Quest: an educational game designed to improve word association for students, and a build-your-own Connections game inspired by the New York Times Connections!",
+  "Hi there! My name is Monica Stef, a 4th-year Computer Science student at Queen's University, passionate about AI, cybersecurity, and building innovative tech solutions that solve real-world problems.",
+  "I've had the privilege of interning as a Summer Analyst at Accenture, a Software Developer at BMO, and a Data Engineer at Scotiabank where I worked on exciting, client-facing projects to automate and optimize user-experience and integrate client's suggestions. Aside from internship experience, I’m actively exploring creative projects like a a face-restoration project that restores blurry or damaged images of people using Generative Adversarial Networks (GANs) and transformer architectures. Aside from that, I've worked on Spell Quest: an educational game designed to improve word association for students, and myIBD Compass: a medical assistant app leveraging AI to help users with IBD track symptoms, manage triggers, and gain personalized insights to improve their health. Similar to MyFitnessPal but tailored for IBD care.",
   "Currently, I'm working as an App Developer on Synapsis (a pioneer organization in biotechnology research) and a Project Member at Q3C (Queen's Cryptography and Cybersecurity Club. I think my ongoing development of my skills in software architecture, C++ development, AI use cases, and interactive game design, all while staying involved in such initiatives is a true testament of my curiosity and willingness to learn.",
 
-  "Thanks for visiting, and welcome to my digital space :)",
+  "Thanks for visiting, and welcome to my personal portfolio :)",
 ];
 
 export const skills = [
   {
     title: "Languages",
-    skillName: "C++, C#, C, Python, Java",
+    skillName: "C++, C#, C, Python, Java, HTML, CSS, PHP, Haskell, Prolog, MATLAB",
     color: "1",
     percentage: "90",
   },
   {
     title: "Frameworks/Libraries",
-    skillName: "React, Node.js, TensorFlow, PyTorch, Flask, Django",
+    skillName: ".NET, React, Node.js, PyTorch, JUnit, pytest",
     color: "6",
     percentage: "70",
   },
   {
     title: "Design",
-    skillName: "HTML, CSS, JavaScript, Three.js",
+    skillName: "HTML, CSS, PHP, JavaScript, Typescript, Three.js",
     color: "4",
     percentage: "80",
   },
@@ -33,7 +33,7 @@ export const skills = [
   },
   {
     title: "Tools",
-    skillName: "GitHub, Jira, Confluence, Azure DevOps",
+    skillName: "GitHub & GitLab, Docker, Jira, Confluence, Azure, IBM ACE, GCP, Figma, Flutter, Cleo, Talend, Figma, Flutter, Wireshark, SEED VM",
     color: "3",
     percentage: "80",
   },
@@ -60,20 +60,20 @@ export const skills = [
 export const projects = {
   webProjects: [
     {
+      projectName: "FairGame",
+      image: "images/fgmatching.png",
+      summary:
+        "DApp using blockchain for secure, anonymous, and bias-free job matching using smart contracts and ZKPs. Designed an intuitive UI: resume uploads, job filtering, and profile management.",
+      preview: "https://github.com/monicastef/qhacks2025",
+      techStack: ["Midnight Network", "HTML", "CSS", "JavaScript"],
+    },
+    {
       projectName: "myFace",
       image: "images/qhacks.jpg",
       summary:
         "An AI-powered facial recognition application designed to replace two-factor authentication in Queens University student portal",
       preview: "",
       techStack: ["Python", "OpenCV", "TensorFlow", "Flask"],
-    },
-    {
-      projectName: "Build Your Own New York Times Connections",
-      image: "images/conn.jpg",
-      summary:
-        "Inspired by the New York Times \"Connections\", allows users to create custom puzzles by grouping four words with shared themes",
-      preview: "",
-      techStack: ["React", "Node.js", "MongoDB"],
     },
     {
       projectName: "Web Portfolio",
@@ -92,6 +92,22 @@ export const projects = {
         "In-depth architectural model evaluating system components, developer responsibilities, and architectural implications to support collaborative software development and modular design principles.",
       preview: "https://sites.google.com/view/arraysofsunshine/home",
       techStack: ["UML Diagrams", "Jira", "Google Sites"],
+    },
+    {
+      projectName: "Face Restoration using GANs",
+      image: "",
+      summary:
+        "Restoring degraded face images by applying Generative Adversarial Networks (GANs) and transformer architectures, specifically GFPGAN and CodeFormer. ",
+      preview: "https://github.com/ajsib/CISC-473-Project/tree/main",
+      techStack: ["Pytorch", "Python", "Conda Environment"],
+    },
+    {
+      projectName: "myIBD Compass",
+      image: "Medical assistant app leveraging AI to help users with IBD track symptoms, manage triggers, and gain personalized insights to improve their health. Similar to MyFitnessPal but tailored for IBD care.",
+      summary:
+        "https://github.com/synapsis-org/myIBDCompass-main",
+      preview: "",
+      techStack: ["React Native", "TypeScript", "SQLite"],
     },
   ],
   gameProjects: [
@@ -126,6 +142,19 @@ export const projects = {
 
 export const experience = [
   {
+    title: "Accenture",
+    duration: "June 2025 - Aug 2025",
+    subtitle: "Technology Summer Analyst",
+    details: [
+      `Built and deployed enterprise integrations using IBM ACE on GCP to improve data flow across 20+ business interfaces.`,
+      `Monitored application performance and made improvements through optimizations and break-fixes.`,
+      `Automated deployments with GitLab CI/CD to decrease release cycles from weekly to daily in some workflows.`,
+      `Managed incident resolution and performed root cause analysis for integration issues to reducing downtime.`,
+    ],
+    tags: ["GCP", "IBM Cloud", "Cleo", "Jira", "GitLab", "Docker"],
+    icon: "office ",
+  },
+  {
     title: "Bank of Montreal",
     duration: "May 2024 - Aug 2024",
     subtitle: "Software Developer Intern",
@@ -139,7 +168,7 @@ export const experience = [
       `Extra Activities: Participated in IBM z/OS hackathon, designed an AI model using IBM’s watsonx, coordinated intern events, Women in Tech mentee`,
     ],
     tags: ["ASP.NET", "C#", "Azure", "SQL", "Artifactory", "Ansible"],
-    icon: "truck ",
+    icon: "office ",
   },
   {
     title: "Scotiabank",
@@ -150,6 +179,7 @@ export const experience = [
       `Optimized data ingestion workflows, improving system throughput by 20%.`,
       `Analyzed large-scale data using SQL and HQL, creating useful insights for model optimization.`,
       `Partnered with analytics teams to support data integrity in ModelOps initiatives.`,
+      `Additional Involvements: Agentic AI Case Competition - built an image understanding agent to cut power outage resolution time in half.`,
     ],
     tags: [
       "Talend",
@@ -158,7 +188,7 @@ export const experience = [
       "HQL",
       "ModelOps",
     ],
-    icon: "heartbeat",
+    icon: "office",
   },
 ];
 
