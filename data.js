@@ -77,7 +77,7 @@ export const projects = {
     },
     {
       projectName: "Web Portfolio",
-      image: "images/logo.png",
+      image: "images/portfolio_ss.png",
       summary:
         "Personal website to display, skills, projects and interests.",
       preview: "https://github.com/monicastef/monicastef.github.io.git",
@@ -152,7 +152,7 @@ export const experience = [
       `Managed incident resolution and performed root cause analysis for integration issues to reducing downtime.`,
     ],
     tags: ["GCP", "IBM Cloud", "Cleo", "Jira", "GitLab", "Docker"],
-    icon: "office ",
+    icon: "code ",
   },
   {
     title: "Bank of Montreal",
@@ -168,7 +168,7 @@ export const experience = [
       `Extra Activities: Participated in IBM z/OS hackathon, designed an AI model using IBM’s watsonx, coordinated intern events, Women in Tech mentee`,
     ],
     tags: ["ASP.NET", "C#", "Azure", "SQL", "Artifactory", "Ansible"],
-    icon: "office ",
+    icon: "code ",
   },
   {
     title: "Scotiabank",
@@ -188,7 +188,7 @@ export const experience = [
       "HQL",
       "ModelOps",
     ],
-    icon: "office",
+    icon: "code",
   },
 ];
 
