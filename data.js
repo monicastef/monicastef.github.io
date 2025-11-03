@@ -95,7 +95,7 @@ export const projects = {
     },
     {
       projectName: "Face Restoration using GANs",
-      image: "",
+      image: "images/gfpganmodel.png",
       summary:
         "Restoring degraded face images by applying Generative Adversarial Networks (GANs) and transformer architectures, specifically GFPGAN and CodeFormer. ",
       preview: "https://github.com/ajsib/CISC-473-Project/tree/main",
@@ -103,10 +103,10 @@ export const projects = {
     },
     {
       projectName: "myIBD Compass",
-      image: "Medical assistant app leveraging AI to help users with IBD track symptoms, manage triggers, and gain personalized insights to improve their health. Similar to MyFitnessPal but tailored for IBD care.",
+      image: "images/synapsislogo.png",
       summary:
-        "https://github.com/synapsis-org/myIBDCompass-main",
-      preview: "",
+        "Medical assistant app leveraging AI to help users with IBD track symptoms, manage triggers, and gain personalized insights to improve their health. Similar to MyFitnessPal but tailored for IBD care.",
+      preview: "https://github.com/synapsis-org/myIBDCompass-main",
       techStack: ["React Native", "TypeScript", "SQLite"],
     },
   ],
@@ -276,7 +276,7 @@ export const footer = [
     label: "copyright-text",
     data: [
       "Made with &hearts; by Monica Stef.",
-      "Last Updated: Fall 2024",
+      "Last Updated: Fall 2025",
     ],
   },
 ];
